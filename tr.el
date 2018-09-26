@@ -1,7 +1,7 @@
 ;;; tr.el --- clean tr implementation without options
 ;; Authors: Kisaragi Hiu <mail@kisaragi-hiu.com>
 ;; URL: https://github.com/kisaragi-hiu/tr.el
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Package-Requires: ((emacs "24") (s "1.12.0") (dash "2.14.1"))
 ;;
 ;; This file is NOT part of GNU Emacs.
@@ -27,7 +27,7 @@
 (require 's)
 (require 'dash)
 
-(defun tr (str set1 set2)
+(defun tr (set1 set2 str)
   "Replace SET1 characters present in STR with corresponding SET2 characters.
 
 Example: \(tr \"abc\" \"ab\" \"cd\"\) -> \"cdc\""
