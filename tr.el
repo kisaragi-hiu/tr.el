@@ -23,6 +23,7 @@
 ;;; Commentary:
 ;; I don't need backward compatibility with decades-old unix scripts,
 ;; I just want a tr that works with unicode. This is it.
+;; TODO: remove dash & s.el dependency
 ;;; Code:
 (require 's)
 (require 'dash)
