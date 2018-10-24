@@ -27,6 +27,7 @@
 (require 's)
 (require 'dash)
 
+;;;###autoload
 (defun tr (set1 set2 str)
   "Replace SET1 characters present in STR with corresponding SET2 characters.
 
